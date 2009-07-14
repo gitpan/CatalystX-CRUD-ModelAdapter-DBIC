@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               CatalystX-CRUD-ModelAdapter-DBIC
-version:            0.09
+version:            0.10
 abstract:           CRUD for Catalyst::Model::DBIC::Schema
 author:
     - Peter Karman <karman@cpan.org>
@@ -13,6 +13,7 @@ build_requires:
 requires:
     Catalyst::Model::DBIC::Schema:  0
     CatalystX::CRUD:      0.42
+    Data::Dump:           0
     DBIx::Class:          0
     DBIx::Class::RDBOHelpers:  0.04
     Test::More:           0
@@ -20,7 +21,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
+generated_by:       ExtUtils::MakeMaker version 6.54
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
