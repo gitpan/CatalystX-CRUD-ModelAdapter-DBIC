@@ -12,6 +12,7 @@ t/insertdb.pl
 t/lib/MyApp.pm
 t/lib/MyApp/Controller/CRUD.pm
 t/lib/MyApp/Controller/Root.pm
+t/lib/MyApp/Controller/REST/CRUD.pm
 t/lib/MyApp/Model/Main.pm
 t/lib/MyForm.pm
 t/lib/MyModelAdapter.pm
@@ -70,4 +71,5 @@ t/example/MyApp/script/myapp_test.pl
 t/example/MyApp/t/01app.t
 t/example/MyApp/t/02pod.t
 t/example/MyApp/t/03podcoverage.t
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
